@@ -51,7 +51,7 @@ export default function ProposalTitle() {
     <div>
       <button onClick={proposalTitle}>Get Proposals</button>
       <button>
-        <a href="/proposalForm">Create Proposal</a>
+        <Link href="/proposalForm">Create Proposal</Link>
       </button>
       {proposals.map((p, index) => (
         <div key={index}>
