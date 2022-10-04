@@ -70,7 +70,7 @@ export default function ProposalTitle() {
               )}
             </li>
             <button>
-              <a href={`/proposals/${encodeURIComponent(index + 1)}`}>Vote</a>
+              <a href={`${encodeURIComponent(index + 1)}`}>Vote</a>
             </button>
             <button onClick={() => excecute(index + 1)}>
               excecute proposal
